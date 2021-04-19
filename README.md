@@ -1,3 +1,3 @@
-# scientific_python
+# scientific_python_course
 
-Regular expressions homework
+ITMO University
