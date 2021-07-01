@@ -1,0 +1,6 @@
+IDS, = glob_wildcards('input/{file, \w+}')
+
+rule all:
+    input: expand('input/{file}', file=IDS)
+    output: touch('.status')
+	script: "counting.py"
