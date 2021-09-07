@@ -1,6 +1,0 @@
-channels:
- - defaults
- - bioconda
-dependencies:
-# - bowtie2>=2.2.5
- - samtools==1.11
